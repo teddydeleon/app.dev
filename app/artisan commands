@@ -1,0 +1,8 @@
+php artisan make:controller AppController
+
+php artisan make:controller --resource AppController
+
+php artisan migrate
+
+
+php artisan make:migration  create_posts_table --create="posts"
